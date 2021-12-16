@@ -23,15 +23,9 @@ export default function Header() {
 
       <Nav>
         <ul>
-          <li>
-            <a href="#">About</a>
-          </li>
-          <li>
-            <a href="#">Discover</a>
-          </li>
-          <li>
-            <a href="#">Get Started</a>
-          </li>
+          <li>About</li>
+          <li>Discover</li>
+          <li>Get Started</li>
         </ul>
       </Nav>
     </StyledHeader>
@@ -64,12 +58,10 @@ const Nav = styled.nav`
     li {
       display: inline-block;
 
-      a {
-        color: white;
-        margin: 0 10px;
+      color: white;
+      margin: 0 10px;
 
-        text-decoration: none;
-      }
+      text-decoration: none;
     }
   }
 `;

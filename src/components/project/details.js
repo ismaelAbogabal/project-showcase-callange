@@ -4,7 +4,6 @@ import { Row } from "../layout/row.styled";
 import BookmarkButton from "../ui/bookmark-button.styled";
 import { Button } from "../ui/button.styled";
 import { Card } from "../ui/card";
-import Modal from "../ui/model";
 import { Title } from "../ui/title.styled";
 
 export default function ProjectDetails({ showModel }) {
